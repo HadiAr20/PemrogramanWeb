@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 2 Hadi</title>
+        <style>
+            h1 {
+                color: rgb(247, 242, 241);
+            }
+            h2 {
+                color: rgb(242, 239, 238);
+            }
+            .form {
+                color: rgb(217, 20, 20);
+                padding: 5px;
+                margin-top: 20px;
+                border-radius: 20px;
+            }
+            input[type=number],select{
+                width: 40%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid rgb(31, 31, 55);
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type=submit] {
+                width: 10%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid rgb(54, 54, 128);
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type=submit]:hover {
+                background-color: tomato;
+            }
+            .header {
+                background-color: rgb(45, 68, 99);
+                padding: 10px;
+                border-radius: 10px;
+            }
+            .layout {
+                background-color:rgb(45, 68, 99);
+                width: 250px;
+                margin: auto;
+                border-radius: 25px;
+                display: inline-block;
+            }
+            .button {
+                background-color: #324e61;
+                cursor: pointer;
+                border-radius: 12px;
+                text-align: center;
+                text-decoration: none;
+                align-items: center;
+                font-size: 16px;
+                border: none;
+                color: rgb(251, 249, 249);
+                padding: 10px 40px;
+                margin-top: 20px;
+                margin: 20px auto 0;
+                
+            }
+            .box h3,h4 {
+                color: rgb(255, 255, 255);
+            }
+           
+        </style>
+    </head>
+<body>
+    <h1 class="header" align="center">Jaketku Jaketmu</h1>
+    <h2 class="header" align="center">Detail Jacket</h2>
+    <div class="wrap" align="center">
+        <div class="layout" align="center">
+            <div class="box">
+                <img width="230px" src="https://o.remove.bg/downloads/4fa4aeb9-d32d-4641-8219-e3cca7c4badb/9c96066025b45e861b61e06450c108c5-removebg-preview.png" alt="NascarDP">
+                <h3>Nascar DU Pont</h3>
+                <h4>Rp. 500.000</h4>
+            </div>
+            </div>
+            <div class="layout" align="center">
+                <div class="box">
+                    <img width="230px" src="https://o.remove.bg/downloads/9da479cb-015b-4f12-b8ac-93b0fa67085f/0b65309b9f7535d6c761234c95fcf699-removebg-preview.png" alt="NascarMO">
+                    <h3>Nascar Memphis Origins</h3>
+                    <h4>Rp. 400.000</h4>
+                </div>
+            </div>
+    </div>
+    
+    <form action="Detail Jacket.html" method="GET" class="form" align="center">
+        <label for="varian"><b>Varian</b></label><br>
+        <select name="varian" id="varian">
+            <option value="DUPont">Nascar DU Pont</option>
+            <option value="Memphis">Nascar Memphis Origins</option>
+        </select><br><br>
+
+        <label for="size"><b>Size</b></label><br>
+        <select name="size" id="size">
+            <option value="S">Small</option>
+            <option value="M">Medium</option>
+            <option value="L">Large</option>
+        </select><br><br>
+
+        <button class="button">checkout</button>
+    </form>
+</body>
+</html>
